@@ -18,3 +18,7 @@ console.log(power);
 const firstName = 'Reza';
 const lastName = 'Rahmani';
 const fullName = firstName + lastName;
+
+// Template String literal
+const firstNameNew = `${firstName}`;
+console.log(firstNameNew);
