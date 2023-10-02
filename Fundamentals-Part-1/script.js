@@ -33,3 +33,15 @@ console.log('23' - '10' -3); // strings converted to numbers
 let n = '1' + 1;
 n = n -1;
 console.log(n); // Output is 10!
+
+
+console.log(Boolean(0)); // Output is false
+console.log(Boolean(undefined)); // Output is false
+
+const money = 0;
+if(money) {
+  console.log("Don't spend it all");
+} else {
+  console.log("You should get a job!");
+}
+// The Output of if statement is line 44 because money is false boolean.
