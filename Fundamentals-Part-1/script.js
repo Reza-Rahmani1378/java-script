@@ -22,3 +22,14 @@ const fullName = firstName + lastName;
 // Template String literal
 const firstNameNew = `${firstName}`;
 console.log(firstNameNew);
+
+// Conversion
+const inputYear = '1991';
+console.log(Number(inputYear),inputYear);
+console.log(inputYear + 18); // 18 converted to string and concat to inputYear
+
+console.log('23' - '10' -3); // strings converted to numbers
+
+let n = '1' + 1;
+n = n -1;
+console.log(n); // Output is 10!
