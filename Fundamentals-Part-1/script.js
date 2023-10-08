@@ -1,8 +1,3 @@
-let js = "amazing";
-if (js == "amazing") 
-  alert("JavaScript is FUN!");
-console.log(40 + 8);
-
 let javaScriptisFun = true;
 console.log(javaScriptisFun);
 
@@ -45,3 +40,16 @@ if(money) {
   console.log("You should get a job!");
 }
 // The Output of if statement is line 44 because money is false boolean.
+
+const age = 18;
+// === is Equality Operator.
+if(age === 18) console.log('You just became an adult:D(strict)');
+// == is Type conversion Operator.
+
+if(age === 18) console.log('You just became an adult:D(loose)');
+
+const favaourtie = Number(prompt("What's your favourite number?"));
+
+if(favaourtie === 23) { // 232 === 23 -> FALSE
+  console.log('Cool! 23 is an amazing number!');
+}
